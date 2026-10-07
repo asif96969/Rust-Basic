@@ -1,0 +1,8 @@
+[package]
+name = "lecture02"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rand = "0.10.3"
+util.workspace = true
