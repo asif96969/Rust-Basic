@@ -52,6 +52,8 @@ fn main() {
     mail("abdurrahman@gamil.com");
     candidate("Asif", 29, 76.5);
 
+   
+
 }
 
 
@@ -69,6 +71,14 @@ fn mail(gamail: &str) {
 
 fn candidate(name: &str, age: u32, weight: f64){
     println!("My name is {}, I'm {} years old and My wight is {} kg", name, age, weight);
+    
 }
+
+// connection with +
+
+//{
+    //let s = format!("hello {}", 42);
+    //println!("{s} {}", until::type_of(&s));
+//}
 
 
