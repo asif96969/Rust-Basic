@@ -1,0 +1,12 @@
+[workspace]
+resolver = "3" # We set the resolver explicitly to the Edition 2024 default.
+               # (It is not inherited from [package],
+			   # as this virtual workspace has no such section.)
+members = ["util", "lecture*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+util = { path = "util" } # Common dependecy of the lecture* crates.
